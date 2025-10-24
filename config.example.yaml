@@ -1,0 +1,8 @@
+
+# config.example.yaml
+# Copy this file to config.yaml and fill your values.
+telegram_bot_token: "123456:ABC-DEF..."   # Your Telegram bot token
+telegram_chat_id: -123456789             # Chat id (group or channel). Use integer.
+poll_interval_seconds: 300               # how often to check (seconds). Default 300 (5 min)
+source: "bitinfocharts"                  # "bitinfocharts" or "blockchair"
+blockchair_api_key: ""                   # optional: your Blockchair API key (if you choose blockchair)
